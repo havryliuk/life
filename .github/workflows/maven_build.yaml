@@ -1,11 +1,9 @@
 name: Maven build
 
 on:
+  pull_request:
   push:
     branches:
-      - main
-  pull_request:
-    branches-ignore:
       - main
 
 jobs:
